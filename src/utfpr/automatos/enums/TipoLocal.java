@@ -5,7 +5,8 @@ public enum TipoLocal {
     LIXAO("Lixao"),
     MERCADO("Mercado"),
     OFICINA("Oficina"),
-    POSTO("Posto");
+    POSTO("Posto"),
+    ARMAZEM("Armazem");
 
     private String nomeTipo;
 
