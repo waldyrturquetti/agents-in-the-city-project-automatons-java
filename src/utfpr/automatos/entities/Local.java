@@ -2,12 +2,16 @@ package utfpr.automatos.entities;
 
 import utfpr.automatos.enums.TipoLocal;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Local {
 
     private String nome;
     private int lat;
     private int lon;
     private TipoLocal tipoLocal;
+    private List<Item> itemList = new ArrayList<Item>();
 
     public Local(String nome, int lat, int lon, TipoLocal tipoLocal) {
         this.nome = nome;
@@ -46,6 +50,14 @@ public class Local {
 
     public void setTipoLocal(TipoLocal tipoLocal) {
         this.tipoLocal = tipoLocal;
+    }
+
+    public List<Item> getItemList() {
+        return itemList;
+    }
+
+    public void setItemList(List<Item> itemList) {
+        this.itemList = itemList;
     }
 
     @Override

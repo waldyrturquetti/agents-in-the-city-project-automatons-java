@@ -71,6 +71,7 @@ public class Item {
                 ", moedaMassim=" + moedaMassim +
                 ", lat=" + lat +
                 ", lon=" + lon +
-                "} \n";
+                ", peso=" + peso +
+                '}';
     }
 }
