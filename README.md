@@ -1,5 +1,5 @@
 ## 1 INTRODUÇÃO
-Nosso trabalho tem como base em um tema específico em relação à Agents in 
+Esse projeto tem como base em um tema específico em relação à Agents in 
 the City, na qual visava uma competição no ano de 2018 que consistia em um cenário 
 que a distribuição de água estava comprometida por falta de poços e o tema proposto 
 para os participantes era no desenvolvimento de vários agentes que pudessem se 
@@ -10,7 +10,7 @@ ou em trocas de itens perante o jogo. Cada agente possui características e são
 bateria (tempo de locomoção sem a necessidade de recarregar), capacidade (quanto 
 volume consegue carregar), velocidade, visão (distância do campo de visão) e 
 habilidade (tempo que pode completar certas tarefas).
-O cenário continha 4 responsabilidades distintas: carros, drones, motocicletas 
+O cenário continha 4 tipos de agentes distintas: carros, drones, motocicletas 
 e caminhões, categorizado por sua capacidade e energia, além disso, o mapa das 
 cidades disponíveis eram obtidas dos dados do OpenStreetMap, assim como o 
 roteamento que era fornecido pelo servidor do concurso. Cada simulação 
@@ -27,6 +27,8 @@ Os trabalhos eram criados aleatoriamente pelo sistema e os jobs disponíveis
 eram na aquisição, montagem e transporte de mercadorias, as localizações no 
 cenário eram fornecidas pela latitude e longitude, ou seja, cada item, cada trabalho e 
 missão, possuía uma localização com esse par de valores de latitude e longitude.
+
+![image](https://user-images.githubusercontent.com/44614612/196587848-dd645b3e-89f0-4aee-af2f-3542a360cc78.png)
 
 ## 2 DESENVOLVIMENTO
 Com as informações coletadas do nosso tema e com algumas análises e 
