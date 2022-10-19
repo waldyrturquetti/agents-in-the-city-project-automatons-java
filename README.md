@@ -1,5 +1,5 @@
 ## 1 INTRODUÇÃO
-Esse projeto tem como base em um tema específico em relação à Agents in 
+Esse projeto tem como base um tema específico em relação à Agents in 
 the City, na qual visava uma competição no ano de 2018 que consistia em um cenário 
 que a distribuição de água estava comprometida por falta de poços e o tema proposto 
 para os participantes era no desenvolvimento de vários agentes que pudessem se 
